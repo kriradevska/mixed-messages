@@ -6,7 +6,10 @@ let vegetarianSoup = ['Simple Tomato Soup','Ribollita','Maroccan Lentil Quinoa S
 let veganSoup = ['Creamy Vegan Broccoli Soup','Curry Lentil Soup','Cauliflower Soup with Moroccan Spices','Vegan Corn Chowder','Tuscan Soup with White Beans','Kale Soup with Mushrooms and Garlic','Curried Carrot Soup'];
 
 //function for randomization
-let random = () => Math.floor(Math.random()*7);
-//console.log(random());
+let randomIndex = (arr) => arr[Math.floor(Math.random()*arr.length)];
+
+console.log('Soup of Day Generator');
+console.log('=====================');
+
 
 
