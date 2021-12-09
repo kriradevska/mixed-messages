@@ -28,4 +28,13 @@ let suggestion = () => {
 };
 suggestion();
 
+console.log("       (");
+console.log("    )    )");
+console.log('  _.(--"("""--.._');
+console.log("/, _..-----).._,  \ ");
+console.log("|  `'''-----'''`  | ");
+console.log(" .               / ");
+console.log("  '.           .' ");
+console.log("    '--.....--' ");
+
 
