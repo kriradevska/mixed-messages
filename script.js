@@ -8,8 +8,24 @@ let veganSoup = ['Creamy Vegan Broccoli Soup','Curry Lentil Soup','Cauliflower S
 //function for randomization
 let randomIndex = (arr) => arr[Math.floor(Math.random()*arr.length)];
 
-console.log('Soup of Day Generator');
+//greeting function (for aestetic)
+let greetings = () => {
+console.log('Soup of the Day Generator');
 console.log('=====================');
+console.log(' ');
+console.log('Welcome to our Soup of the Day generator. We really like soups!');
+console.log('These are our suggestions:')
+console.log(' ');
+};
+greetings();
 
+//function for suggestion
+let suggestion = () => {
+    console.log(`For the meat-lovers, we suggest ${randomIndex(meatSoup)}.`);
+    console.log(`For the vegetarians, we suggest ${randomIndex(vegetarianSoup)}.`);
+    console.log(`For the vegans, we suggest ${randomIndex(veganSoup)}.`);
+    console.log('Hope you enjoy!')
+};
+suggestion();
 
 
