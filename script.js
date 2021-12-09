@@ -1,5 +1,5 @@
 //arrays for the soups available
-let meatSoup = ['Meatball Soup','Pork and Rice Noodle Soup','Italian Sausage and Bean Soup','Slow-Cooked Mexican Beef Soup','Bratwurst Soup','Asian Vegetable -Beef Soup','Chicken Soup'];
+let meatSoup = ['Meatball Soup','Pork and Rice Noodle Soup','Italian Sausage and Bean Soup','Slow-Cooked Mexican Beef Soup','Bratwurst Soup','Asian Vegetable-Beef Soup','Chicken Soup'];
 
 let vegetarianSoup = ['Simple Tomato Soup','Ribollita','Maroccan Lentil Quinoa Soup','Curried Zucchini Soup','Wild Mushroom and Sunchoke Soup','Potato Leek Soup','Creamy Mushroom Soup'];
 
@@ -11,7 +11,7 @@ let randomIndex = (arr) => arr[Math.floor(Math.random()*arr.length)];
 //greeting function (for aestetic)
 let greetings = () => {
 console.log('Soup of the Day Generator');
-console.log('=====================');
+console.log('=========================');
 console.log(' ');
 console.log('Welcome to our Soup of the Day generator. We really like soups!');
 console.log('These are our suggestions:')
